@@ -1,0 +1,9 @@
+print("Crear una función que reciba una serie de edades y me retorne la cantidad que son mayores o iguales a 18.")
+a = int(input("Ingrese el primer numero\n"))
+b = int(input("Ingrese el segundo numero\n"))
+def E (a, b):
+    if a >= 18:
+        return a
+    elif b >= 18:
+        return b
+print(E(a, b))

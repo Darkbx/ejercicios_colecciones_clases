@@ -1,0 +1,27 @@
+print("Crear una aplicación que se ingrese por teclado el nombre de 5 empleados, "
+      "sueldo cobrado por cada empleado en los ultimos 3 meses. "
+      "Mostrar en pantalla el total pagado a cada empleado en los "
+      "ultimos 3 meses obtener y mostrar cual fue el empleado de mayor ingreso.")
+empleados = (0,0,0,0,0)
+empleado1,empleado2,empleado3,empleado4,empleado5 = empleados
+empleado1 = input("Nombre del primer empleado\n")
+a = int(input("Sueldo cobrado los ultimos 3 meses\n"))
+empleado2 = input("Nombre del segundo empleado\n")
+b = int(input("Sueldo cobrado los ultimos 3 meses\n"))
+empleado3 = input("Nombre del tercer empleado\n")
+c = int(input("Sueldo cobrado los ultimos 3 meses\n"))
+empleado4 = input("Nombre del cuarto empleado\n")
+d = int(input("Sueldo cobrado los ultimos 3 meses\n"))
+empleado5 = input("Nombre del quinto empleado\n")
+e = int(input("Sueldo cobrado los ultimos 3 meses\n"))
+
+if a > b and a > c and a > d and a > e:
+    print("El empleado de mayor ingresos es",empleado1,"con un total de",a,)
+elif b > a and b > c and b > d and b > e:
+    print("El empleado de mayor ingresos es",empleado2,"con un total de",b,)
+elif c > a and c > b and c > d and c > e:
+    print("El empleado de mayor ingresos es",empleado3,"con un total de",c,)
+elif d > a and d > b and d > c and d > e:
+    print("El empleado de mayor ingresos es ",empleado4,"con un total de ",d,)
+elif e > a and e > b and e > c and e > d:
+    print("El empleado de mayor ingresos es ",empleado5,"con un total de ",e,)

@@ -1,0 +1,28 @@
+print('6.Crear una lista y almacenar 20 enteros pedidos por teclado. Eliminar todos los elementos que sean pares.')
+
+a = int(input("Digite el primer numero\n"))
+b = int(input("Digite el segundo numero\n"))
+c = int(input("Digite el tercer numero\n"))
+d = int(input("Digite el cuarto numero\n"))
+e = int(input("Digite el quinto numero\n"))
+f = int(input("Digite el sexto numero\n"))
+g = int(input("Digite el septimo numero\n"))
+h = int(input("Digite el octavo numero\n"))
+i = int(input("Digite el noveno numero\n"))
+j = int(input("Digite el decimo numero\n"))
+k = int(input("Digite el undecimo numero\n"))
+l = int(input("Digite el duodecimo numero\n"))
+m = int(input("Digite el decimotercer numero\n"))
+n = int(input("Digite el decimocuarto numero\n"))
+ñ = int(input("Digite el decimoquinto numero\n"))
+o = int(input("Digite el decimosexto numero\n"))
+p = int(input("Digite el decimoseptimo numero\n"))
+q = int(input("Digite el decimooctavo numero\n"))
+r = int(input("Digite el decimonoveno numero\n"))
+s = int(input("Digite el vigesimo numero\n"))
+
+digitos = [a,b,c,d,e,f,g,h,i,j,k,l,m,n,ñ,o,p,q,r,s]
+a,b,c,d,e,f,g,h,i,j,k,l,m,n,ñ,o,p,q,r,s = digitos
+
+print(digitos, '\n')
+print(digitos[0:10])

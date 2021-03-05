@@ -1,0 +1,9 @@
+print("Crear una función que le enviemos como parámetros dos enteros y nos retorne el mayor.")
+a = int(input("Ingrese el primer numero\n"))
+b = int(input("Ingrese el segundo numero\n"))
+def E (a, b):
+    if a >= b:
+        return a
+    else:
+        return b
+print(E(a, b))

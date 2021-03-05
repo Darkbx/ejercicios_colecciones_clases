@@ -1,0 +1,42 @@
+print("Un programa que almacene en una lista el número de días que tiene cada mes "
+      "(supondremos que es un año no bisiesto), "
+      "pida al usuario que le indique un mes "
+      "(1=enero, 12=diciembre) y muestre en pantalla el número de días que tiene ese mes.")
+Enero = [31]
+Febrero = [28]
+Marzo = [31]
+Abril = [30]
+Mayo = [31]
+Junio = [30]
+Julio = [31]
+Agosto = [31]
+Septiembre = [30]
+Octubre = [31]
+Noviembre = [30]
+Diciembre = [31]
+Meses = [Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre]
+a = int(input("Elija el mes que desea ver\n"))
+if a == 1:
+    print("Enero",Enero)
+elif a == 2:
+    print("Febrero",Febrero)
+elif a == 3:
+    print("Marzo",Marzo)
+elif a == 4:
+    print("Abril",Abril)
+elif a == 5:
+    print("Mayo",Mayo)
+elif a == 6:
+    print("Junio",Junio)
+elif a == 7:
+    print("Julio",Julio)
+elif a == 8:
+    print("Agosto",Agosto)
+elif a == 9:
+    print("Septiembre",Septiembre)
+elif a == 10:
+    print("Octubre",Octubre)
+elif a == 11:
+    print("Noviembre",Noviembre)
+elif a == 12:
+    print("Diciembre",Diciembre)

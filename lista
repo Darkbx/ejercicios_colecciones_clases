@@ -1,0 +1,8 @@
+print("Crear una lista. La lista tiene que tener 3 elementos. "
+      "Cada elemento debe ser una lista de 5 enteros. "
+      "Calcular y mostrar la suma de cada lista contenida en la lista principal.")
+lista1 = [2+3+4+6+8]
+lista2 = [4+5+2+6+7]
+lista3 = [7+5+3+78+98]
+lista4 = [lista1,lista2,lista3]
+print(lista4)

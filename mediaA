@@ -1,0 +1,14 @@
+print("Un programa que pida al usuario 4 "
+      "números, los memorice (utilizando una coleccion), calcule su media "
+      "aritmética y después muestre en pantalla la media y los datos ingresado.")
+
+Num = (0,0,0,0) #tupla
+a,b,c,d = Num
+
+a = int(input("Ingrese el primer numero"))
+b = int(input("Ingrese el segundo numero"))
+c = int(input("Ingrese el tercer numero"))
+d = int(input("Ingrese el cuarto numero"))
+
+total = round(a+b+c+d/4)
+print("Sus numeros ingresados fueron",a,",",b,",",c,"y",d,"y la media aritmetica calculada es",total,)

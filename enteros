@@ -1,0 +1,36 @@
+print("Crear y cargar una lista con 10 enteros por teclado. "
+      "Crear un programa que identifique el valor mas pequeño de la lista y la posición donde se encuentra. "
+      "Mostrar en pantalla el resultado.\n")
+
+a = int(input("Ingrese primer numero\n"))
+b = int(input("Ingrese segundo numero\n"))
+c = int(input("Ingrese tercer numero\n"))
+d = int(input("Ingrese cuarto numero\n"))
+e = int(input("Ingrese quinto numero\n"))
+f = int(input("Ingrese sexto numero\n"))
+g = int(input("Ingrese septimo numero\n"))
+h = int(input("Ingrese octavo numero\n"))
+i = int(input("Ingrese noveno numero\n"))
+j = int(input("Ingrese decimo numero\n"))
+lista1 = [a,b,c,d,e,f,g,h,i,j]
+print("Sus numeros ingresados fueron",lista1)
+if a < b and a < c and a < d and a < e and a < f and a < g and a < h and a < i and a < j:
+    print("El menor de los numeros ingresados es",a,"en la posicion 0")
+elif b < a and b < c and b < d and b < e and b < f and b < g and b < h and b < i and b < j:
+    print("El menor de los numeros ingresados es",b,"en la posicion 1")
+elif c < a and c < b and c < d and c < e and c < f and c < g and c < h and c < i and c < j:
+    print("El menor de los numeros ingresados es",c,"en la posicion 2")
+elif d < a and d < b and d < c and d < e and d < f and d < g and d < h and d < i and d < j:
+    print("El menor de los numeros ingresados es",d,"en la posicion 3")
+elif e < a and e < b and e < c and e < d and e < f and e < g and e < h and e < i and e < j:
+    print("El menor de los numeros ingresados es",e,"en la posicion 4")
+elif f < a and f < b and f < c and f < d and f < e and f < g and f < h and f < i and f < j:
+    print("El menor de los numeros ingresados es",f,"en la posicion 5")
+elif g < a and g < b and g < c and g < d and g < e and g < f and g < h and g < i and g < j:
+    print("El menor de los numeros ingresados es",g,"en la posicion 6")
+elif h < a and h < b and h < c and h < d and h < e and h < f and h < g and h < i and h < j:
+    print("El menor de los numeros ingresados es",h,"en la posicion 7")
+elif i < a and i < b and i < c and i < d and i < e and i < f and i < g and i < h and i < j:
+    print("El menor de los numeros ingresados es",i,"en la posicion 8")
+elif j < a and j < b and j < c and j < d and j < e and j < f and j < g and j < h and j < i:
+    print("El menor de los numeros ingresados es",j,"en la posicion 9")
